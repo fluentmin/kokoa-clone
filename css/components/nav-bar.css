@@ -23,7 +23,7 @@
     transform: none;
   }
   50% {
-    transform: translateY(-5px) rotateY(180deg);
+    transform: translateY(-5px);
   }
   100% {
     transform: none;

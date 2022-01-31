@@ -33,7 +33,7 @@
 }
 
 .main-chat {
-  margin-top: 180px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,7 +53,12 @@
   width: 100%;
   display: flex;
   align-items: center;
-  margin-bottom: 25px;
+
+  margin: 10px 0;
+}
+
+.--continue-message {
+  margin-top: -15px;
 }
 
 .message-row img {

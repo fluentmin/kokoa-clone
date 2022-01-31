@@ -58,4 +58,16 @@
 .user-component__alert {
   margin-left: 5px;
   color: tomato;
+  display: flex;
+  align-items: flex-end;
+}
+
+.user-component__alert span {
+  margin-left: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+.user-component__alert span:hover {
+  color: tomato;
 }
