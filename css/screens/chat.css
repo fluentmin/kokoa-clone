@@ -147,8 +147,8 @@
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: -3px;
-  top: 2px;
+  right: 4px;
+  top: 3.5px;
 }
 
 .reply__column:last-child > i {

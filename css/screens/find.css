@@ -1,7 +1,7 @@
 .recommended-friends {
   border-top: var(--main-border);
   border-bottom: var(--main-border);
-  padding: 25px 0px;
+  padding: 15px 0px;
   margin: 25px 0px;
 }
 
@@ -12,7 +12,7 @@
 
 .recommended-friends span {
   display: block;
-  margin: 100px 0px;
+  margin: 70px 0px;
   text-align: center;
   font-size: 14px;
   color: var(--main-letter-collor);
