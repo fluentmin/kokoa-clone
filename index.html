@@ -25,14 +25,12 @@
 
     <header class="welcome-header">
       <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-      <p class="welcome-header__text">
-        If you have a Kokoa Account, log in with your email or phone number.
-      </p>
+      <p class="welcome-header__text">Please log in with your username.</p>
     </header>
 
     <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
+      <input required name="username" type="text" placeholder="Username" />
+      <!-- <input name="password" type="password" placeholder="Password" /> -->
       <input type="submit" value="Log In" />
       <a href="#">Find Kokoa Account or Password</a>
     </form>
@@ -41,6 +39,7 @@
       <span>Your screen is too big ㅠㅠ</span>
     </div>
 
+    <script src="index.js"></script>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"

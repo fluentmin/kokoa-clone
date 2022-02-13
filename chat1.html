@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chat w/ Changmin - Kokoa Clone</title>
+    <title>Chat with myself - Kokoa Clone</title>
   </head>
   <body id="chat-screen">
     <div class="status-bar">
@@ -28,7 +28,7 @@
         <a href="chats.html"><i class="fas fa-angle-left fa-3x"></i></a>
       </div>
       <div class="alt-header__column">
-        <h1 class="alt-header__title">창민</h1>
+        <h1 class="alt-header__title" id="user-component__username"></h1>
       </div>
       <div class="alt-header__column">
         <span><i class="fas fa-search fa-lg"></i></span>
@@ -44,7 +44,7 @@
           src="https://img.dongascience.com/yonhap/AKR20210318142400009_01_i.jpg"
         />
         <div class="message-row__content">
-          <span class="message__author">Changmin</span>
+          <span class="message__author" id="user-component__username"></span>
           <div class="message__info">
             <span class="message-bubble">Hi!</span>
             <span class="message-time">20:33</span>
@@ -55,7 +55,7 @@
       <div class="message-row message-row--own">
         <div class="message-row__content">
           <div class="message__info">
-            <span class="message-bubble">Hi! nice to meet you!</span>
+            <span class="message-bubble">This is awesome!</span>
             <span class="message-time">20:33</span>
           </div>
         </div>
@@ -66,7 +66,7 @@
           src="https://img.dongascience.com/yonhap/AKR20210318142400009_01_i.jpg"
         />
         <div class="message-row__content">
-          <span class="message__author">Changmin</span>
+          <span class="message__author" id="user-component__username"></span>
           <div class="message__info">
             <span class="message-bubble"
               >Please check my Kokoa Account Info</span
@@ -94,6 +94,7 @@
       <span>Your screen is too big TT</span>
     </div>
 
+    <script src="chat1.js"></script>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
